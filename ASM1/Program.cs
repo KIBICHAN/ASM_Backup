@@ -57,7 +57,7 @@ namespace ASM1
             ArrayList DSSV = new ArrayList(50);
             DSSV.Add(new SinhVien());
             int stop;
-            do
+            //do
             {
                 int choice;
                 Console.WriteLine("*********************************");
