@@ -8,27 +8,27 @@ namespace ASM1
     {
         private string maSV;
         private string hoTen;
-        private string ngaySinh;
-        private string diaChi;
+       // private string ngaySinh;
+       // private string diaChi;
         private string dienThoai;
 
         //Constructors khong co tham so
         public SinhVien()
         {
-            MaSV = "SE141059";
-            HoTen = "PhamManhDung";
-            NgaySinh = "5/8/2000";
-            DiaChi = "Quan2";
-            DienThoai = "034316";
+            //MaSV = "SE141059";
+            //HoTen = "PhamManhDung";
+            //NgaySinh = "5/8/2000";
+            //DiaChi = "Quan2";
+            //DienThoai = "034316";
         }
         //Constructors voi tham so
         public SinhVien(string id, string name, string date, string adr, string phone)
         {
-            this.maSV = id;
-            this.hoTen = name;
-            this.ngaySinh = date;
-            this.diaChi = adr;
-            this.dienThoai = phone;
+            //this.maSV = id;
+            //this.hoTen = name;
+            //this.ngaySinh = date;
+            //this.diaChi = adr;
+            //this.dienThoai = phone;
         }
 
         //Cac properties (set, get)
