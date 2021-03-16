@@ -26,8 +26,8 @@ namespace ASM1
         {
             this.maSV = id;
             this.hoTen = name;
-            this.ngaySinh = date;
-            this.diaChi = adr;
+            //this.ngaySinh = date;
+            //this.diaChi = adr;
             this.dienThoai = phone;
         }
 
@@ -57,7 +57,7 @@ namespace ASM1
             ArrayList DSSV = new ArrayList(50);
             DSSV.Add(new SinhVien());
             int stop;
-            //do
+            do
             {
                 int choice;
                 Console.WriteLine("*********************************");
