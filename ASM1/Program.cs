@@ -7,8 +7,8 @@ namespace ASM1
     class SinhVien
     {
         private string maSV;
-        //private string hoTen;
-        //private string ngaySinh;
+        private string hoTen;
+        private string ngaySinh;
         private string diaChi;
         private string dienThoai;
 
@@ -26,8 +26,8 @@ namespace ASM1
         {
             this.maSV = id;
             this.hoTen = name;
-            //this.ngaySinh = date;
-            //this.diaChi = adr;
+            this.ngaySinh = date;
+            this.diaChi = adr;
             this.dienThoai = phone;
         }
 
