@@ -7,8 +7,8 @@ namespace ASM1
     class SinhVien
     {
         private string maSV;
-        private string hoTen;
-        private string ngaySinh;
+        //private string hoTen;
+        //private string ngaySinh;
         private string diaChi;
         private string dienThoai;
 
